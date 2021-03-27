@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{title}}</title>
-    <link rel="stylesheet" href="/stylesheets/style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
 
-  <body>
+<body>
+  <ul id='navbar'>
+    <a href="/signup">
+      <li>signup</li>
+    </a>
+    <a href="/login">
+      <li>login</li>
+    </a>
+    <a href="/logout">
+      <li>logout</li>
+    </a>
+    <a href="/main">
+      <li>main</li>
+    </a>
+        <a href="/private">
+      <li>private</li>
+    </a>
+  </ul>
 
-    {{{body}}}
+  {{{body}}}
 
-    <script src="/javascripts/script.js"></script>
-  </body>
+  <script src="/javascripts/script.js"></script>
+</body>
 
 </html>
